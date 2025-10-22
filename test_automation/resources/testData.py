@@ -1,0 +1,5 @@
+URL = "https://www.saucedemo.com/"
+BROWSER = "firefox"
+USERNAME = "standard_user"
+PASSWORD = "secret_sauce"
+INVALID_PASSWORD = "secret"

@@ -1,0 +1,98 @@
+Test Case 1: User Login
+ID: TC01
+Objective: Verify user can login with valid credentials
+Preconditions:
+    - working computer/device
+Test Steps:
+    1. Open browser
+    2. Enter valid username and password
+    3. Click Login button
+    4. Verify user is on the products page
+Expected Results:
+    - User successfully logs in
+Actual Results
+    - User successfully logged in
+Status:
+    - Pass
+
+
+Test Case 2: User Logout
+ID: TC02
+Objective: Logged in user can logout
+Preconditions:
+    - working computer/device
+Test Steps:
+    1. Open browser
+    2. Enter valid username and password
+    3. Click Login button
+    4. Verify user is on the products page
+    5. Click side menu button
+    6. Click Logout element
+Expected Results:
+    - User logged out and redirected to login page
+Actual Results
+    - User successfully logged out and redirected to login page
+Status:
+    - Pass
+
+
+Test Case 3: Adding product to cart
+ID: TC03
+Objective: Verifying user can add product to cart
+Preconditions:
+    - working computer/device
+Test Steps:
+    1. Open browser
+    2. Enter valid username and password
+    3. Click Login button
+    4. Verify user is on the products page
+    5. Click add to cart button on the first product
+    6. Click the cart element
+    7. Verify product is present in the cart page
+Expected Results:
+    - Product added to the cart
+Actual Results
+    - Product successfully added to the cart
+Status:
+    - Pass
+
+
+Test Case 4: Removing product from the cart
+ID: TC04
+Objective: User can remove product from the cart
+Preconditions:
+    - working computer/device
+Test Steps:
+    1. Open browser
+    2. Enter valid username and password
+    3. Click Login button
+    4. Verify user is on the products page
+    5. Click add to cart button on the first product
+    6. Click the cart element
+    7. Verify product is present in the cart page
+    8. Click remove button
+    9. Verify product is no longer present in the cart page
+Expected Results:
+    - Product removed from cart
+Actual Results
+    - Product successfully removed from the cart
+Status:
+    - Pass
+
+
+Test Case 5: Login with invalid credentials
+ID: TC05
+Objective: Verifying error message pops up if user enters invalid credentials
+Preconditions:
+    - working computer/device
+Test Steps:
+    1. Open browser
+    2. Enter valid username and invalid password
+    3. Click Login button
+    4. Verify error message pops up
+Expected Results:
+    - Error message pops up
+Actual Results
+    - Error message popped up
+Status:
+    - Pass
