@@ -16,7 +16,8 @@ platforms:
     browserVersion: latest
 parallelsPerPlatform: 1
 browserstackLocal: false
-buildName: browserstack-build-1
+buildName: pythonmain-build-2
 projectName: Python Main
 networkLogs: true
 consoleLogs: info
+CUSTOM_TAG_1: "python_job_main"
