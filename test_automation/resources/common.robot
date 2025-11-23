@@ -5,7 +5,7 @@ Variables    testData.py
 
 *** Keywords ***
 Log In
-    Open Browser    ${URL}    ${BROWSER}    options=add_argument(--headless)
+    Open Browser    ${URL}    ${BROWSER}    options=add_argument("--headless")
     Wait Until Page Contains Element    ${LOGIN_BUTTON}    timeout=80    error=LogInButtonNotFound
     Sleep    1s
     Input Text    ${USERNAME_FIELD}    ${USERNAME}
@@ -15,7 +15,7 @@ Log In
     Close Browser
 
 Log Out
-    Open Browser    ${URL}    ${BROWSER}    options=add_argument(--headless)
+    Open Browser    ${URL}    ${BROWSER}    options=add_argument("--headless")
     Wait Until Page Contains Element    ${LOGIN_BUTTON}    timeout=80    error=LogInButtonNotFound
     Sleep    1s
     Input Text    ${USERNAME_FIELD}    ${USERNAME}
@@ -28,7 +28,7 @@ Log Out
     Close Browser
 
 Add To Cart
-    Open Browser    ${URL}    ${BROWSER}    options=add_argument(--headless)
+    Open Browser    ${URL}    ${BROWSER}    options=add_argument("--headless")
     Wait Until Page Contains Element    ${LOGIN_BUTTON}    timeout=80    error=LogInButtonNotFound
     Sleep    1s
     Input Text    ${USERNAME_FIELD}    ${USERNAME}
@@ -41,7 +41,7 @@ Add To Cart
     Close Browser
 
 Remove From Cart
-    Open Browser    ${URL}    ${BROWSER}    options=add_argument(--headless)
+    Open Browser    ${URL}    ${BROWSER}    options=add_argument("--headless")
     Wait Until Page Contains Element    ${LOGIN_BUTTON}    timeout=80    error=LogInButtonNotFound
     Sleep    1s
     Input Text    ${USERNAME_FIELD}    ${USERNAME}
@@ -56,7 +56,7 @@ Remove From Cart
     Close Browser
 
 Invalid Login
-    Open Browser    ${URL}    ${BROWSER}    options=add_argument(--headless)
+    Open Browser    ${URL}    ${BROWSER}    options=add_argument("--headless")
     Wait Until Page Contains Element    ${LOGIN_BUTTON}    timeout=80    error=LogInButtonNotFound
     Sleep    1s
     Input Text    ${USERNAME_FIELD}    ${USERNAME}
