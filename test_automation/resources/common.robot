@@ -6,7 +6,7 @@ Variables    testData.py
 *** Keywords ***
 Log In
     Open Browser    ${URL}    ${BROWSER}
-    Wait Until Page Contains Element    ${LOGIN_BUTTON}    timeout=80    error=LogInButtonNotFound
+    Wait Until Page Contains Element    ${LOGIN_BUTTON}
     Sleep    1s
     Input Text    ${USERNAME_FIELD}    ${USERNAME}
     Input Text    ${PASSWORD_FIELD}    ${PASSWORD}
@@ -16,7 +16,7 @@ Log In
 
 Log Out
     Open Browser    ${URL}    ${BROWSER}
-    Wait Until Page Contains Element    ${LOGIN_BUTTON}    timeout=80    error=LogInButtonNotFound
+    Wait Until Page Contains Element    ${LOGIN_BUTTON}
     Sleep    1s
     Input Text    ${USERNAME_FIELD}    ${USERNAME}
     Input Text    ${PASSWORD_FIELD}    ${PASSWORD}
@@ -29,7 +29,7 @@ Log Out
 
 Add To Cart
     Open Browser    ${URL}    ${BROWSER}
-    Wait Until Page Contains Element    ${LOGIN_BUTTON}    timeout=80    error=LogInButtonNotFound
+    Wait Until Page Contains Element    ${LOGIN_BUTTON}
     Sleep    1s
     Input Text    ${USERNAME_FIELD}    ${USERNAME}
     Input Text    ${PASSWORD_FIELD}    ${PASSWORD}
@@ -42,7 +42,7 @@ Add To Cart
 
 Remove From Cart
     Open Browser    ${URL}    ${BROWSER}
-    Wait Until Page Contains Element    ${LOGIN_BUTTON}    timeout=80    error=LogInButtonNotFound
+    Wait Until Page Contains Element    ${LOGIN_BUTTON}
     Sleep    1s
     Input Text    ${USERNAME_FIELD}    ${USERNAME}
     Input Text    ${PASSWORD_FIELD}    ${PASSWORD}
@@ -57,7 +57,7 @@ Remove From Cart
 
 Invalid Login
     Open Browser    ${URL}    ${BROWSER}
-    Wait Until Page Contains Element    ${LOGIN_BUTTON}    timeout=80    error=LogInButtonNotFound
+    Wait Until Page Contains Element    ${LOGIN_BUTTON}
     Sleep    1s
     Input Text    ${USERNAME_FIELD}    ${USERNAME}
     Input Text    ${PASSWORD_FIELD}    ${INVALID_PASSWORD}

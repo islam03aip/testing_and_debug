@@ -21,3 +21,4 @@ projectName: Python Main
 networkLogs: true
 consoleLogs: info
 CUSTOM_TAG_1: "python_job_main"
+testObservability: true
