@@ -16,7 +16,7 @@ platforms:
     browserVersion: latest
 parallelsPerPlatform: 1
 browserstackLocal: false
-buildName: pythonmain-build-2
+buildName: pythonmain-build-3
 projectName: Python Main
 networkLogs: true
 consoleLogs: info
