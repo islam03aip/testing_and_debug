@@ -1,5 +1,5 @@
-username: ${USERNAME}
-accessKey: ${ACCESS_KEY}
+username: ${BROWSERSTACK_USERNAME}
+accessKey: ${BROWSERSTACK_ACCESS_KEY}
 framework: robot
 platforms:
   - os: Windows
