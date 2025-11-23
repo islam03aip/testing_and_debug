@@ -15,6 +15,6 @@ platforms:
     browserName: Firefox
     browserVersion: latest
 parallelsPerPlatform: 1
-browserstackLocal: true
+browserstackLocal: false
 buildName: browserstack-build-1
 projectName: BrowserStack Sample
