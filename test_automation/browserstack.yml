@@ -17,7 +17,7 @@ platforms:
 parallelsPerPlatform: 1
 browserstackLocal: false
 buildName: pythonmain-build-3
-projectName: Python Main
+projectName: Python Main2
 networkLogs: true
 consoleLogs: info
 CUSTOM_TAG_1: "python_job_main"
